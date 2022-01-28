@@ -1,0 +1,4 @@
+:8888
+
+reverse_proxy /accounts localhost:8080
+reverse_proxy /connections* localhost:8081
